@@ -1,0 +1,19 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Metrics placeholder</title>
+  <desc id="desc">A placeholder card indicating that GitHub metrics will appear after GitHub Actions is configured.</desc>
+  <defs>
+    <linearGradient id="bg" x1="92" y1="44" x2="868" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#E9DCC8"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="924" height="324" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="924" height="324" rx="28" stroke="#D4C0A7" stroke-width="2"/>
+  <text x="72" y="104" fill="#44372E" font-family="Georgia, 'Times New Roman', serif" font-size="34">GitHub signals</text>
+  <text x="72" y="152" fill="#725F51" font-family="Arial, Helvetica, sans-serif" font-size="22">The live overview card will appear here after the Metrics workflow runs.</text>
+  <text x="72" y="190" fill="#725F51" font-family="Arial, Helvetica, sans-serif" font-size="22">Add the METRICS_TOKEN secret, then trigger the action once.</text>
+  <rect x="72" y="236" width="202" height="40" rx="20" fill="#3E5149"/>
+  <text x="105" y="261" fill="#F7F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">Awaiting first render</text>
+  <path d="M716 84C786 84 840 137 840 206C840 248 820 285 789 309C736 300 688 269 661 224C637 184 633 138 648 99C668 89 691 84 716 84Z" fill="#85644B" opacity="0.18"/>
+  <path d="M703 131C741 131 771 160 771 197C771 235 741 264 703 264C666 264 636 235 636 197C636 160 666 131 703 131Z" fill="#2F4F4F" opacity="0.16"/>
+</svg>

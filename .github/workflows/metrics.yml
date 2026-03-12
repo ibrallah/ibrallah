@@ -1,0 +1,85 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/metrics.yml
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Profile overview
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ibrallah
+          filename: github-metrics.svg
+          base: header, repositories
+          base_indepth: yes
+          config_timezone: Europe/Paris
+          config_display: columns
+          config_padding: 0, 10 + 6%
+          output_condition: data-changed
+          optimize: css, xml
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          committer_message: "chore: refresh github metrics [Skip GitHub Action]"
+
+      - name: Language footprint
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ibrallah
+          filename: metrics.plugin.languages.svg
+          base: ""
+          config_timezone: Europe/Paris
+          config_padding: 0, 10 + 6%
+          output_condition: data-changed
+          optimize: css, xml
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          committer_message: "chore: refresh github metrics [Skip GitHub Action]"
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_other: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake,
+            shell, gnuplot
+          plugin_languages_aliases: javascript:JS, typescript:TS
+          plugin_languages_colors: >-
+            0:#2F4F4F, 1:#7A5C3E, 2:#7B8F62, 3:#8B6F61, 4:#5D7487, 5:#C0A57A
+
+      - name: Contribution rhythm
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ibrallah
+          filename: metrics.plugin.isocalendar.svg
+          base: ""
+          config_timezone: Europe/Paris
+          config_padding: 0, 10 + 6%
+          output_condition: data-changed
+          optimize: css, xml
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          committer_message: "chore: refresh github metrics [Skip GitHub Action]"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

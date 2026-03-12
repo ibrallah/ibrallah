@@ -1,46 +1,64 @@
-# Salut, je suis Abdallah ! 👋
-
-### Étudiant-Entrepreneur (L3 Info/Maths) | Software Engineer & Data Enthusiast 🚀
-
-Je suis un développeur passionné par l'architecture logicielle, l'Intelligence Artificielle et la conteneurisation. En tant que candidat au statut d'étudiant-entrepreneur (PEPITE), j'aime transformer des concepts algorithmiques complexes en produits réels et scalables. 
-
----
-
-### 💻 Ce que je construis actuellement :
-- 🥊 **Fight Learn :** Lead Developer & Fondateur d'une application EdTech mobile (le "Duolingo des sports de combat"). J'intègre des modèles d'IA (*Computer Vision / Pose Estimation*) pour tracker et corriger les mouvements des utilisateurs en temps réel.
-- 🧹 **Sparkly Service :** Développement full-stack d'une marketplace B2B avec intégration de flux de paiements sécurisés et workflows d'automatisation.
-- 🖥️ **Homelab / DevOps :** Administration de mon propre serveur local 24/7 sous CasaOS avec conteneurisation de mes services via Docker.
-
----
-
-### 🛠️ Ma Stack Technique
-
-**Langages & Backend :**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-</p>
-
-**Data, Cloud & Outils :**
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/n8n-FF6D5W?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-</p>
-
----
-
-### 📊 Mes Statistiques GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibrallaho&show_icons=true&theme=radium&hide_border=true" alt="Statistiques de Abdallah" />
+  <img src="./assets/calm-banner.svg" alt="Calm editorial banner" width="100%" />
 </p>
 
----
+<h1 align="center">Abdallah</h1>
 
-### 📫 Me contacter :
-- 📧 **Email :** abdallah.titt@gmail.com
+<p align="center">
+  Software Engineer in progress, currently finishing a Math and Computer Science degree and shaping the next chapter around applied AI, product engineering, and systems that feel precise and durable.
+</p>
+
+<p align="center">
+  <a href="mailto:abdallah.titt@gmail.com">abdallah.titt@gmail.com</a>
+</p>
+
+## About
+
+I like building software with a calm surface and a serious backbone.
+Most of what I work on sits somewhere between product engineering, data, and infrastructure: mobile experiences, AI-assisted systems, backend design, automation, and self-hosted tooling.
+
+Right now, I am polishing the pieces that define the next step: my CV, my master applications, my portfolio, and the public face of my work.
+
+## What I am building
+
+**Fight Learn**  
+Leading the product and engineering direction of an EdTech mobile app for combat sports, with computer vision and pose estimation used to help users practice movement with real feedback.
+
+**Sparkly Service**  
+Building a B2B marketplace with a focus on clean backend flows, payments, and operational automation.
+
+**Homelab**  
+Running a personal server environment with Docker and CasaOS to keep a direct relationship with deployment, observability, and day-to-day systems work.
+
+## Focus areas
+
+- Applied AI for real product use cases
+- Backend and API design
+- Data-centric product thinking
+- DevOps, containers, and self-hosted infrastructure
+- Building tools that stay understandable as they scale
+
+## Selected GitHub Signals
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub metrics overview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./metrics.plugin.languages.svg" alt="Language footprint" width="49%" />
+  <img src="./metrics.plugin.isocalendar.svg" alt="Contribution rhythm" width="49%" />
+</p>
+
+## Working style
+
+I am drawn to projects that need both clarity and depth: the kind of work where architecture matters, details matter, and the final result should feel quieter than the effort required to build it.
+
+## Stack, in plain terms
+
+Python, Java, TypeScript, SQL, and C when needed.
+Docker, Supabase, Firebase, automation workflows, and cloud tooling when the system calls for them.
+
+## Notes
+
+The metrics cards in this profile are generated with [lowlighter/metrics](https://github.com/lowlighter/metrics) through GitHub Actions.
+To enable automatic updates, add a repository secret named `METRICS_TOKEN` with a GitHub personal access token.

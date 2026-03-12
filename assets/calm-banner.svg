@@ -1,0 +1,78 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Calm editorial banner</title>
+  <desc id="desc">An original calm scene with branches, a seated figure silhouette and warm earth tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="116" y1="48" x2="1032" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#ECE0CE"/>
+    </linearGradient>
+    <linearGradient id="chairWood" x1="698" y1="144" x2="972" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B6446"/>
+      <stop offset="1" stop-color="#5B3E2E"/>
+    </linearGradient>
+    <linearGradient id="robe" x1="496" y1="194" x2="752" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#344740"/>
+      <stop offset="1" stop-color="#18221E"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="566" y1="174" x2="656" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3D8B4"/>
+      <stop offset="1" stop-color="#D8B287"/>
+    </linearGradient>
+    <filter id="shadow" x="408" y="88" width="626" height="408" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#6E5848" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <g opacity="0.48" stroke="#9B816C" stroke-width="4" stroke-linecap="round">
+    <path d="M811 36C782 72 759 99 722 120C695 136 669 149 653 173"/>
+    <path d="M739 93C748 115 743 133 728 149"/>
+    <path d="M836 54C861 74 890 92 917 92C948 92 968 77 987 58"/>
+    <path d="M688 128C661 126 632 137 608 163"/>
+    <path d="M902 98C916 114 920 130 915 153"/>
+    <path d="M615 164C600 185 587 208 577 229"/>
+    <path d="M871 27C891 24 907 29 923 41"/>
+  </g>
+
+  <g opacity="0.34" stroke="#B99E86" stroke-width="2.4" stroke-linecap="round">
+    <path d="M771 61L755 76"/>
+    <path d="M730 112L713 122"/>
+    <path d="M861 63L878 76"/>
+    <path d="M896 117L918 120"/>
+    <path d="M645 146L629 137"/>
+    <path d="M616 191L598 186"/>
+    <path d="M593 224L579 240"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M783 143C867 140 940 181 953 249C965 312 952 407 893 441C834 475 749 451 701 409C649 364 607 278 641 217C666 173 720 145 783 143Z" fill="url(#chairWood)" opacity="0.96"/>
+    <path d="M873 155C921 180 943 215 944 260C944 318 928 377 885 418" stroke="#4E3528" stroke-width="10" stroke-linecap="round" opacity="0.62"/>
+    <path d="M716 211C745 193 768 183 804 178C827 175 846 177 864 184" stroke="#4E3528" stroke-width="8" stroke-linecap="round" opacity="0.48"/>
+  </g>
+
+  <path d="M617 213C635 194 665 183 693 184C720 185 747 197 761 220C776 244 770 279 746 296C723 313 691 312 664 305C640 298 614 279 608 251C605 237 607 224 617 213Z" fill="url(#skin)"/>
+  <path d="M607 208C625 184 648 162 682 154C718 146 760 151 789 175C807 190 818 213 816 238C814 263 799 284 777 296C780 270 776 241 754 221C731 200 697 193 666 198C643 202 624 214 606 229C601 221 602 214 607 208Z" fill="#1B1B1B"/>
+  <path d="M659 219C679 196 711 182 741 186C726 206 702 220 674 222" fill="#F2E5D5" opacity="0.92"/>
+
+  <path d="M573 256C606 224 646 211 695 213C758 216 806 245 825 300C847 362 824 430 758 453C700 473 612 465 562 427C514 391 489 327 512 282C523 261 544 255 573 256Z" fill="url(#robe)"/>
+  <path d="M522 290C544 273 570 266 600 269C572 294 559 325 559 360C529 344 511 315 522 290Z" fill="#24312B" opacity="0.86"/>
+  <path d="M623 249C650 243 680 242 710 246C692 270 687 301 695 331C665 320 638 299 621 273" fill="#F3EEE3" opacity="0.96"/>
+  <path d="M727 251C757 264 781 285 796 315C811 344 815 378 805 411C788 384 764 362 734 351C739 316 736 283 727 251Z" fill="#20302B" opacity="0.92"/>
+
+  <path d="M517 334C548 330 581 340 608 359C631 375 648 401 656 431C621 432 585 425 555 408C525 391 505 364 500 334C506 334 511 334 517 334Z" fill="#1E2723" opacity="0.94"/>
+  <path d="M648 343C683 348 714 364 734 391C713 401 687 404 662 397C641 390 621 375 608 356C621 348 634 343 648 343Z" fill="#F0E1C6" opacity="0.92"/>
+  <path d="M592 351C607 351 621 359 629 372C620 384 604 388 589 388C575 388 561 382 552 370C561 358 577 351 592 351Z" fill="#E6D2B3"/>
+
+  <g opacity="0.18">
+    <circle cx="277" cy="148" r="94" fill="#F1E3D0"/>
+    <circle cx="322" cy="194" r="58" fill="#E6D4BC"/>
+  </g>
+
+  <g fill="#5F5145" opacity="0.92">
+    <rect x="92" y="348" width="168" height="2"/>
+    <rect x="92" y="368" width="132" height="2"/>
+  </g>
+  <text x="92" y="326" fill="#4A3E34" font-family="Georgia, 'Times New Roman', serif" font-size="56" letter-spacing="1.2">Abdallah</text>
+  <text x="94" y="404" fill="#7A6858" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="0.8">software, data, and quiet systems</text>
+</svg>
