@@ -41,12 +41,12 @@ Running a personal server environment with Docker and CasaOS to keep a direct re
 ## Selected GitHub Signals
 
 <p align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics overview" width="100%" />
+  <img src="https://raw.githubusercontent.com/ibrallah/ibrallah/main/github-metrics.svg?v=20260312" alt="GitHub metrics overview" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./metrics.plugin.languages.svg" alt="Language footprint" width="49%" />
-  <img src="./metrics.plugin.isocalendar.svg" alt="Contribution rhythm" width="49%" />
+  <img src="https://raw.githubusercontent.com/ibrallah/ibrallah/main/metrics.plugin.languages.svg?v=20260312" alt="Language footprint" width="49%" />
+  <img src="https://raw.githubusercontent.com/ibrallah/ibrallah/main/metrics.plugin.isocalendar.svg?v=20260312" alt="Contribution rhythm" width="49%" />
 </p>
 
 ## Working style
