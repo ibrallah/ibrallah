@@ -8,9 +8,7 @@
   Software Engineer in progress, currently finishing a Math and Computer Science degree and shaping the next chapter around applied AI, product engineering, and systems that feel precise and durable.
 </p>
 
-<p align="center">
-  <a href="mailto:abdallah.titt@gmail.com">abdallah.titt@gmail.com</a>
-</p>
+
 
 ## About
 
